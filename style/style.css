@@ -1,0 +1,273 @@
+.bg-sw {
+    background: rgba(34, 51, 34, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.gradient-loading {
+    background: linear-gradient(90deg, #4A5568, #718096, #4A5568);
+    background-size: 200% 200%;
+    animation: gradientAnimation 1s linear infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+
+    }
+
+    50% {
+        background-position: 120% 50%;
+
+    }
+
+    100% {
+        background-position: 0% 50%;
+
+    }
+}
+
+.transciton {
+    transition: .5s;
+}
+
+.bg-ss {
+    background: rgba(35, 35, 35, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.contaside {
+    transition: .5s !important;
+}
+
+.closet {
+    background: rgb(30, 30, 30, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 3px;
+    border-radius: 10px;
+    transition: .3s;
+
+    &:hover {
+        scale: 1.2;
+
+        svg {
+            color: #D1D5DB;
+        }
+    }
+
+}
+
+.ss:hover::after {
+    content: "Proximamente disponible";
+    position: absolute;
+    background: #1e1e1e;
+    padding: 5px 10px;
+    margin-top: -90px;
+    color: white;
+    border-radius: 10px;
+}
+
+.ss:hover::before {
+    content: "";
+    background: #1e1e1e;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+
+    margin-top: -75px;
+    position: absolute;
+}
+
+body {
+    scrollbar-width: 6px;
+    scrollbar-color: #4e4e4e #212121;
+}
+
+
+
+.markdown {
+    background-color: 343541;
+    /* Fondo similar al de ChatGPT en modo oscuro */
+    color: #D1D5DB;
+    /* Color de texto suave */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 1rem;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+/* Estilos para el Markdown al estilo ChatGPT */
+
+
+.markdown h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #38bdf8;
+    margin-top: 1rem;
+}
+
+.markdown h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #60a5fa;
+    margin-top: 1rem;
+}
+
+.markdown h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #93c5fd;
+    margin-top: 1rem;
+}
+
+.markdown h4,
+h5,
+h6 {
+    font-weight: 500;
+    color: #cbd5e1;
+    margin-top: 1rem;
+}
+
+/* Párrafos */
+.markdown p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+/* Negrita, cursiva, tachado */
+.markdown strong {
+    font-weight: bold;
+    color: #facc15;
+}
+
+.markdown em {
+    font-style: italic;
+    color: #f472b6;
+}
+
+.markdown del {
+    text-decoration: line-through;
+    color: #f87171;
+}
+
+/* Listas */
+.markdown ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.markdown ol {
+    list-style: decimal;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.markdown li {
+    margin: 0.25rem 0;
+}
+
+/* Enlaces */
+.markdown a {
+    color: #38bdf8;
+    text-decoration: underline;
+}
+
+.markdown a:hover {
+    color: #0ea5e9;
+}
+
+/* Bloques de código */
+.markdown pre {
+    background-color: #1e293b;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.markdown code {
+    background-color: #1e1e2e;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    color: #f472b6;
+}
+
+.markdown pre code {
+    background: none;
+    padding: 0;
+    color: #f1f5f9;
+}
+
+/* Citas */
+.markdown blockquote {
+    border-left: 4px solid #60a5fa;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: #94a3b8;
+    font-style: italic;
+}
+
+/* Tablas */
+.markdown table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.markdown th,
+td {
+    border: 1px solid #334155;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.markdown th {
+    background-color: #1e293b;
+    color: #facc15;
+}
+
+.markdown td {
+    background-color: #0f172a;
+}
+
+/* Imágenes */
+.markdown img {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+/* Línea horizontal */
+.markdown hr {
+    border: none;
+    border-top: 1px solid #334155;
+    margin: 2rem 0;
+}
+
+.bg-gradient2 {
+    background: linear-gradient(190deg, #1e1e1e 0%, #4e4e4e 100%) no-repeat;
+}
+
+.gadient {
+    background: linear-gradient(190deg, #3c0263 0%, #4d0647 100%) no-repeat;
+
+}
+
+.text-grandient {
+    background: linear-gradient(90deg, #fc9700, #d8e61b);
+    background-clip: text;
+    width: fit-content;
+    background-size: 100% 100%;
+    color: transparent;
+    font-family: "Permanent Marker", cursive !important;
+    font-weight: 400;
+    font-style: normal;
+}
