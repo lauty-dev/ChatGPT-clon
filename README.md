@@ -33,7 +33,7 @@ Esta plataforma permite interactuar con modelos de lenguaje avanzados, renderiza
 
 ## 📸 Capturas de pantalla
 
-![Captura de ChatGPT Clon](https://smara.web.app/imagenes/eros%20smara.png)
+![Captura de ChatGPT Clon](https://smara.web.app/imagenes/erossmara.png)
 
 ---
 
