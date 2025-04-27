@@ -42,3 +42,7 @@ Esta plataforma permite interactuar con modelos de lenguaje avanzados, renderiza
 1. Clona el repositorio:
 
 ```bash git clone https://github.com/lauty-dev/ChatGPT-clon.git```
+
+2. obtiene la api key de google ia studio: 
+
+```html https://aistudio.google.com/app/apikey```
